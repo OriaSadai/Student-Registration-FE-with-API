@@ -54,6 +54,8 @@ const DUNNY_REGISTERED_STUDENTS = [
 
 function App() {
 
+  console.log("Hey");
+
   const [registeredStudents, setRegisteredStudents] = useState(DUNNY_REGISTERED_STUDENTS);
 
   const addStudentHandler = (enteredRegisteredStudentData) => {
